@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export sh_uri=~/load_environment.sh
+export sh_uri=$0
 
 # Print this document
 alias me='cat $sh_uri'
@@ -28,6 +28,3 @@ alias git_rb_all='
     git checkout master;
     git pull;
     '
-
-# === SmileForward convenice scripts ===
-alias go='cd ~/SmileForward/smileforward-backend/sfsite/smileforward/'

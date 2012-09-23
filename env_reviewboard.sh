@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export sh_uri=$0
+export sh_uri=~/env_reviewboard.sh
 
 # Print this document
 alias me='cat $sh_uri'

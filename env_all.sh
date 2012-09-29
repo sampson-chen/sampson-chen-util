@@ -2,5 +2,5 @@
 
 # run this script from ~/.bashrc
 # this collects all of the convenience scripts
-. ~/env_reviewboard.sh
-. ~/env_smileforward.sh
+. $rb_script_dir/env_reviewboard.sh
+. $rb_script_dir/env_smileforward.sh
